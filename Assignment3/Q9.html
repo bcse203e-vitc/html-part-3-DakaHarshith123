@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+</head>
+<body>
+    <h1>Restaurant Menu</h1>
+    <table border="1" width="100%" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Dish Name</th>
+                <th>Category</th>
+                <th>Ingredients</th>
+                <th>Price</th>
+                <th>Ratings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Appetizer -->
+            <tr>
+                <td>Bruschetta <span title="Vegetarian">&#127806;</span></td>
+                <td>Appetizer</td>
+                <td rowspan="2">Tomatoes, Basil, Olive Oil</td>
+                <td>$8.50</td>
+                <td>★★★★☆</td>
+            </tr>
+            <!-- Main Course with same ingredients -->
+            <tr>
+                <td>Tomato Basil Pasta <span title="Vegetarian">&#127806;</span></td>
+                <td>Main Course</td>
+                <td>$14.00</td>
+                <td>★★★★★</td>
+            </tr>
+            <!-- Dessert -->
+            <tr>
+                <td>Tiramisu</td>
+                <td>Dessert</td>
+                <td>Coffee, Mascarpone, Ladyfingers</td>
+                <td>$7.00</td>
+                <td>★★★★★</td>
+            </tr>
+            <!-- Another Dish with Same Ingredients -->
+            <tr>
+                <td>Caprese Salad <span title="Vegetarian">&#127806;</span></td>
+                <td>Appetizer</td>
+                <td rowspan="2">Mozzarella, Tomatoes, Basil</td>
+                <td>$9.50</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>Margherita Pizza <span title="Vegetarian">&#127806;</span></td>
+                <td>Main Course</td>
+                <td>$12.00</td>
+                <td>★★★★★</td>
+            </tr>
+            <!-- Non-Vegetarian Dish -->
+            <tr>
+                <td>Grilled Chicken</td>
+                <td>Main Course</td>
+                <td>Chicken, Garlic, Lemon</td>
+                <td>$18.00</td>
+                <td>★★★★☆</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Legend</h2>
+    <ul>
+        <li>&#127806; - Vegetarian Dish</li>
+        <li>★ - Rating</li>
+    </ul>
+</body>
+</html>
