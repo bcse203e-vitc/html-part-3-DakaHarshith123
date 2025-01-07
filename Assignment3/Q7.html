@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    <table border="1" width="100%" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td colspan="3" style="background-color: red;" title="Speaker: Dr. Smith | Keynote on 'Future of Technology'">
+                    Keynote: Future of Technology
+                </td>
+            </tr>
+            <tr>
+                <td>10:15 - 11:15</td>
+                <td style="background-color: blue;" title="Speaker: Alice Johnson | Workshop on AI Basics">
+                    Workshop: AI Basics
+                </td>
+                <td rowspan="2" style="background-color: aqua;" title="Speaker: Bob Lee | Seminar on Quantum Computing">
+                    Seminar: Quantum Computing
+                </td>
+                <td style="background-color: green;" title="Speaker: Charlie Kim | Panel Discussion on Cybersecurity">
+                    Panel: Cybersecurity
+                </td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td style="background-color: yellow;" title="Speaker: Dana Wilson | Workshop on Cloud Computing">
+                    Workshop: Cloud Computing
+                </td>
+                <td style="background-color: orange;" title="Speaker: Eve Brown | Case Studies in Data Privacy">
+                    Case Studies: Data Privacy
+                </td>
+            </tr>
+            <tr>
+                <td>1:30 - 3:30</td>
+                <td colspan="3" style="background-color: purple;" title="Speaker: Multiple | Roundtable on Emerging Tech">
+                    Roundtable: Emerging Tech
+                </td>
+            </tr>
+            <tr>
+                <td>3:45 - 4:45</td>
+                <td style="background-color: brown;" title="Speaker: Frank Green | Workshop on Blockchain Basics">
+                    Workshop: Blockchain Basics
+                </td>
+                <td style="background-color: pink;" title="Speaker: Gina Scott | Talk on Ethical AI">
+                    Talk: Ethical AI
+                </td>
+                <td style="background-color: grey;" title="Speaker: Harry White | Networking Session">
+                    Networking Session
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Legend</h2>
+    <ul>
+        <li style="background-color:red; display: inline-block; padding: 5px;">Keynote</li>
+        <li style="background-color: blue; display: inline-block; padding: 5px;">Workshop</li>
+        <li style="background-color: aqua; display: inline-block; padding: 5px;">Seminar</li>
+        <li style="background-color: green; display: inline-block; padding: 5px;">Panel</li>
+        <li style="background-color: purple; display: inline-block; padding: 5px;">Roundtable</li>
+        <li style="background-color: pink; display: inline-block; padding: 5px;">Talk</li>
+    </ul>
+</body>
+</html>
